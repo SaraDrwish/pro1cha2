@@ -720,6 +720,7 @@ ul li {
         bottom: 0;
         /* width: 88% !important; */
         font-size: 0.9em;
+        z-index: 11;
     }
 
     .bigFooterBox .foottop .left-top p {
