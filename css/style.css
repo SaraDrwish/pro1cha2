@@ -1,26 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* --------------------------------------------------------- */
 /* width */
 ::-webkit-scrollbar {
-    width:0.5em;
+    width: 0.5em;
 }
+
 /* Track */
 ::-webkit-scrollbar-track {
     background: rgb(77, 77, 77);
 }
+
 ::-webkit-scrollbar-track:hover {
     background: rgb(167, 167, 167);
 }
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: tomato;
 }
+
 /* -------------------------------------------------------------- */
-nav{
+nav {
     /* background-color:rgb(255, 90, 30); */
     background-color: tomato;
     padding: 0.6em;
@@ -33,6 +38,7 @@ nav{
     z-index: 11;
     overflow: hidden;
 }
+
 nav i {
     color: rgb(74, 74, 74);
     display: flex;
@@ -46,30 +52,32 @@ nav i {
     z-index: 1;
     text-align: center;
 }
-nav i:nth-child(1){
+
+nav i:nth-child(1) {
     margin-top: 4em;
 }
+
 nav i:nth-child(2):after {
-  position: absolute;
-  content: ' ';
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  background-color: rgb(228, 228, 228);
-  border-radius: 0.8em;
-  -webkit-border-radius: 0.8em;
-  -moz-border-radius: 0.8em;
-  -ms-border-radius: 0.8em;
-  -o-border-radius: 0.8em;
-  width: 2.4em;
-  height: 2.4em;
-  opacity: 50%;
-  z-index: -1;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
+    position: absolute;
+    content: ' ';
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(228, 228, 228);
+    border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -ms-border-radius: 0.8em;
+    -o-border-radius: 0.8em;
+    width: 2.4em;
+    height: 2.4em;
+    opacity: 50%;
+    z-index: -1;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 /* nav i:nth-child(2):after:hover{
@@ -77,92 +85,107 @@ nav i:nth-child(2):after {
 } */
 
 /* -------------------------------------------------------------- */
-main{
+main {
     padding: 0.8em 0.8em 0.8em 4em;
-    display:flex;
+    display: flex;
     /* margin-left: 3em; */
-    align-items: center; /* top and bottom  : y */
+    align-items: center;
+    /* top and bottom  : y */
 }
-main .mainNav{
+
+main .mainNav {
     width: 96%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 2em;
 }
-main .mainLogo{
-display: flex;
-align-items: center;
+
+main .mainLogo {
+    display: flex;
+    align-items: center;
 }
-main .mainLogo i{
+
+main .mainLogo i {
     padding: 0.4em;
     font-size: 1.5em;
     color: tomato;
 }
+
 main .mainLogo h2 {
-    color:  tomato;
+    color: tomato;
 }
-main .mainLeft{
-text-transform: capitalize;
-display: flex;
-align-items: center;
+
+main .mainLeft {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
 }
-main .mainLeft i:nth-child(2){
-   padding: 0.8em;
-   background-color: rgb(226, 226, 226);
-   color: tomato;
-   border-radius: 50%;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   -ms-border-radius: 50%;
-   -o-border-radius: 50%;
-   margin: .8em;
+
+main .mainLeft i:nth-child(2) {
+    padding: 0.8em;
+    background-color: rgb(226, 226, 226);
+    color: tomato;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: .8em;
 }
+
 main .mainLeft i:nth-child(4) {
-      color: tomato;
-      margin: 0.5em 0.8em;
-      cursor: pointer;
+    color: tomato;
+    margin: 0.5em 0.8em;
+    cursor: pointer;
 }
-main .mainNav p{
+
+main .mainNav p {
     padding: 0.4em;
     color: tomato;
 }
-main .mainNav .roundNum{
+
+main .mainNav .roundNum {
     color: rgb(82, 82, 82);
     margin: .4em 1em;
 }
+
 main .mainNav .roundNum span:nth-child(1) {
-        margin: 0 !important;
-        padding: .5em .5em .5em .5em;
-        background-color: rgb(218, 218, 218);
-        border-radius:50px 0px  0px 50px;
-        -webkit-border-radius:50px 0px  0px 50px;
-        -moz-border-radius:50px 0px  0px 50px;
-        -ms-border-radius:50px 0px  0px 50px;
-        -o-border-radius:50px 0px  0px 50px;
+    margin: 0 !important;
+    padding: .5em .5em .5em .5em;
+    background-color: rgb(218, 218, 218);
+    border-radius: 50px 0px 0px 50px;
+    -webkit-border-radius: 50px 0px 0px 50px;
+    -moz-border-radius: 50px 0px 0px 50px;
+    -ms-border-radius: 50px 0px 0px 50px;
+    -o-border-radius: 50px 0px 0px 50px;
 }
+
 main .mainNav .roundNum span:nth-child(2) {
     margin: -4px !important;
     padding: 0.5em 0.8em;
     background-color: rgb(255, 78, 46);
-    border-radius:0 50px 50px 0 ;
-    -webkit-border-radius:0 50px 50px 0 ;
-    -moz-border-radius:0 50px 50px 0 ;
-    -ms-border-radius:0 50px 50px 0 ;
-    -o-border-radius:0 50px 50px 0 ;
+    border-radius: 0 50px 50px 0;
+    -webkit-border-radius: 0 50px 50px 0;
+    -moz-border-radius: 0 50px 50px 0;
+    -ms-border-radius: 0 50px 50px 0;
+    -o-border-radius: 0 50px 50px 0;
 }
+
 /* --------------------------------------------------------------- */
-.container{
+.container {
     width: 94%;
     margin-left: 4em;
 }
-.row{
-    display: flex; 
+
+.row {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /* ------------------------------------------------------------- */
-section{
+section {
     /* width: 94%; */
     /* margin-left: 4em; */
     margin-top: 0.2em;
@@ -172,31 +195,36 @@ section{
     z-index: 1;
     /* height: 100vh; */
 }
-section span{
+
+section span {
     color: tomato;
 }
-section h3{
- /* background-color: rgb(210, 210, 235); */
-color: rgb(81, 81, 81);
+
+section h3 {
+    /* background-color: rgb(210, 210, 235); */
+    color: rgb(81, 81, 81);
 }
-section .sectionOneBigBox{
+
+section .sectionOneBigBox {
     /* background-color: rgb(126, 127, 129); */
     display: flex;
     justify-content: space-evenly;
 }
-section .sectionOneBigBox .leftsec{
+
+section .sectionOneBigBox .leftsec {
     /* background-color: rgb(143, 178, 209); */
     width: 46%;
     padding: 2%;
     margin: 1%;
 }
-section .sectionOneBigBox .leftsec button{
+
+section .sectionOneBigBox .leftsec button {
     padding: 1em;
     width: 42%;
-        /* padding: 1em 7.7em; */
+    /* padding: 1em 7.7em; */
 
     background-color: rgb(238, 238, 238);
-        color: tomato;
+    color: tomato;
     margin: 0.5em;
     outline: none;
     border: none;
@@ -212,73 +240,88 @@ section .sectionOneBigBox .leftsec button{
     font-size: 0.9em;
     font-weight: bold;
 }
-section .sectionOneBigBox .leftsec button:hover{
+
+section .sectionOneBigBox .leftsec button:hover {
     opacity: 90%;
 }
-section .sectionOneBigBox .leftsec button:nth-child(1){
+
+section .sectionOneBigBox .leftsec button:nth-child(1) {
     background-color: rgb(255, 79, 48);
-        color: rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
 }
+
 section .sectionOneBigBox .leftsec form {
-margin: 0.2em;
-display: flex;
-flex-wrap: wrap;
-/* justify-content: center;
+    margin: 0.2em;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
 align-items: center; */
 }
-section .sectionOneBigBox .leftsec form label{
+
+section .sectionOneBigBox .leftsec form label {
     display: block;
     width: 100%;
     margin: 0.6em 0;
     color: rgb(41, 41, 41);
 }
-section .sectionOneBigBox .leftsec form select{
+
+section .sectionOneBigBox .leftsec form select {
     padding: 1em;
     background-color: lightgray;
     border: none;
     width: 46%;
 }
-section .sectionOneBigBox .leftsec form select:focus{
+
+section .sectionOneBigBox .leftsec form select:focus {
     outline: none;
 }
+
 section .sectionOneBigBox .leftsec form input:focus {
     outline: none;
 }
-section .sectionOneBigBox .leftsec form input[type=text]{
+
+section .sectionOneBigBox .leftsec form input[type=text] {
     padding: 1em;
     background-color: lightgray;
     border: none;
     width: 46%;
 }
-section .sectionOneBigBox .leftsec form .textLeftSe p{
-    margin-top: 0.9em  ;
+
+section .sectionOneBigBox .leftsec form .textLeftSe p {
+    margin-top: 0.9em;
     /* padding: 0.5em; */
 }
-section .sectionOneBigBox .leftsec form .textLeftSe{
-display: flex;
-justify-content: space-between;
-font-size: 1em;
-width: 92%;
-margin-bottom: 0.8em;
+
+section .sectionOneBigBox .leftsec form .textLeftSe {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+    width: 92%;
+    margin-bottom: 0.8em;
 }
+
 section .sectionOneBigBox .leftsec form .textLeftSe p:nth-child(1) {
     /* text-align: right; */
     /* display: inline-block; */
     color: rgb(88, 88, 88);
     /* margin-right: auto; */
 }
-section .sectionOneBigBox .leftsec form .textLeftSe p:nth-child(2){
+
+section .sectionOneBigBox .leftsec form .textLeftSe p:nth-child(2) {
     text-align: right;
     /* display: inline-block; */
     /* margin-left: auto; */
     color: rgb(255, 109, 102);
 }
-section .sectionOneBigBox .leftsec form button{
+
+section .sectionOneBigBox .leftsec form button {
     width: 90%;
     padding: 1em;
     /*margin: auto;
-    *//*text-align: center;
-    */cursor: pointer;
+    */
+    /*text-align: center;
+    */
+    cursor: pointer;
     background-color: rgb(143, 215, 143);
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -286,11 +329,13 @@ section .sectionOneBigBox .leftsec form button{
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
 }
-section .sectionOneBigBox .leftsec form button:hover{
+
+section .sectionOneBigBox .leftsec form button:hover {
     background-color: rgb(111, 231, 149);
     color: tomato;
 }
-section .sectionOneBigBox .leftsec p{
+
+section .sectionOneBigBox .leftsec p {
     margin-top: 2em;
     color: gray;
     padding: 0.4em;
@@ -306,63 +351,77 @@ section .sectionOneBigBox .rightsec {
     /* margin: auto; */
     margin: 3% 0;
 }
-section .sectionOneBigBox .rightsec .rightBigBoxImg{
-display: flex;
-justify-content: space-between;
+
+section .sectionOneBigBox .rightsec .rightBigBoxImg {
+    display: flex;
+    justify-content: space-between;
 }
-section .sectionOneBigBox .rightsec .rightBigBoxImg .rightBoxSmall{
-display: flex;
-text-transform: capitalize;
+
+section .sectionOneBigBox .rightsec .rightBigBoxImg .rightBoxSmall {
+    display: flex;
+    text-transform: capitalize;
 }
+
 section .sectionOneBigBox .rightsec .rightBigBoxImg .rightBoxSmall:nth-child(2) {
-flex-direction: row-reverse;
-text-align: right;
+    flex-direction: row-reverse;
+    text-align: right;
 }
+
 section .sectionOneBigBox .rightsec .rightBigBoxImg .rightBoxSmall img {
-       width: 3em;
-       height: 3em;
-       border-radius:50% ;
-       -webkit-border-radius:50% ;
-       -moz-border-radius:50% ;
-       -ms-border-radius:50% ;
-       -o-border-radius:50% ;
-       margin: 0 1.2em;
-       /* padding: 1em; */
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 1.2em;
+    /* padding: 1em; */
 }
-section .sectionOneBigBox .rightsec .rightBigBoxImg .rightBoxSmall .imgBox{
-margin: 0 0.8em;
+
+section .sectionOneBigBox .rightsec .rightBigBoxImg .rightBoxSmall .imgBox {
+    margin: 0 0.8em;
 }
+
 section .sectionOneBigBox .rightsec .rightBigBoxImg .rightBoxSmall .imgBox h5 {
-color: rgb(62, 62, 62);
+    color: rgb(62, 62, 62);
 }
+
 section .sectionOneBigBox .rightsec .rightBigBoxImg .rightBoxSmall .imgBox p {
-color: tomato;
-margin: 0.6em 0;
-text-transform: lowercase;
+    color: tomato;
+    margin: 0.6em 0;
+    text-transform: lowercase;
 }
-section .sectionOneBigBox .rightsec form{
-/* padding: 1%; */
-/* background-color: antiquewhite; */
-text-align: center;
-margin:auto;
-width: 98%;
+
+section .sectionOneBigBox .rightsec form {
+    /* padding: 1%; */
+    /* background-color: antiquewhite; */
+    text-align: center;
+    margin: auto;
+    width: 98%;
 }
-section .sectionOneBigBox .rightsec form input{
-margin: 1% -1%;
-width: 49%;
-padding: 1em;
-border: none;
-background-color: lightgray;
-color: rgb(255, 64, 0);
+
+section .sectionOneBigBox .rightsec form input {
+    margin: 1% -1%;
+    width: 49%;
+    padding: 1em;
+    border: none;
+    background-color: lightgray;
+    color: rgb(255, 64, 0);
 }
-section .sectionOneBigBox .rightsec form input:nth-child(2)::placeholder, input:nth-child(1)::placeholder{
-color: tomato;
-font-weight: 600;
+
+section .sectionOneBigBox .rightsec form input:nth-child(2)::placeholder,
+input:nth-child(1)::placeholder {
+    color: tomato;
+    font-weight: 600;
 }
-section .sectionOneBigBox .rightsec form input:nth-child(12) , input:nth-child(12)::placeholder{
+
+section .sectionOneBigBox .rightsec form input:nth-child(12),
+input:nth-child(12)::placeholder {
     color: rgb(63, 63, 63);
     font-weight: 600;
 }
+
 section .sectionOneBigBox .rightsec form input:focus {
     outline: none;
     border: none;
@@ -370,9 +429,9 @@ section .sectionOneBigBox .rightsec form input:focus {
 
 
 /* -------------------------------------------------------------- */
-footer{
+footer {
     position: static;
- /* position: fixed; */
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 96.8%;
@@ -380,72 +439,84 @@ footer{
     margin-top: 0.2em;
     z-index: -1;
     overflow: hidden;
- }
- ul {
-     list-style: none;
-     display: flex;
- }
-  ul li{
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
     padding: 0.5em;
     margin: 0.1em 0.4em;
-  }
-/* ------------------------------------------------------------ */
-.bigFooterBox{
-  background-color: rgb(220, 220, 220);
-  position: relative;
- }
- /* ....... */
-.bigFooterBox .serofootr{
- background-color: rgb(220, 220, 220);
 }
+
+/* ------------------------------------------------------------ */
+.bigFooterBox {
+    background-color: rgb(220, 220, 220);
+    position: relative;
+}
+
+/* ....... */
+.bigFooterBox .serofootr {
+    background-color: rgb(220, 220, 220);
+}
+
 .bigFooterBox .serofootr .grayfoot {
     /* width: 20%; */
-   background-color: rgb(220, 220, 220);
+    background-color: rgb(220, 220, 220);
 }
-.bigFooterBox .serofootr .blackfoot{
+
+.bigFooterBox .serofootr .blackfoot {
     /* width: 20%; */
-    background-color: rgb(40, 40, 40) ; 
+    background-color: rgb(40, 40, 40);
 }
+
 /* ....... */
 
- .bigFooterBox .foottop{
+.bigFooterBox .foottop {
     /* padding: 1em; */
     display: flex;
- }
- .bigFooterBox .foottop .left-top {
-     padding-left: 8em;
+}
+
+.bigFooterBox .foottop .left-top {
+    padding-left: 8em;
     /* color: rgb(142, 142, 142); */
-        color: rgb(192, 192, 192);
+    color: rgb(192, 192, 192);
     /* display: flex;
     align-items: end; */
     /* align-items: end; */
- }
-  .bigFooterBox .foottop .left-top p{    
-        background-color: rgb(58, 58, 58);
-            padding: 0.4em;
-            width: 6em;
-            height: 6em;
-            display: flex;
-            align-items: end;
-            justify-content: center ;
-            font-size: 0.9em;
-            text-transform: capitalize;
+}
+
+.bigFooterBox .foottop .left-top p {
+    background-color: rgb(58, 58, 58);
+    padding: 0.4em;
+    width: 6em;
+    height: 6em;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 0.9em;
+    text-transform: capitalize;
 }
 
 /* ... */
- .bigFooterBox .footmedd{
-  background-color: rgb(40, 40, 40);
-  padding-left: 8em;
- }
-.bigFooterBox .footmedd .left-med{
-   /* color:rgb(142, 142, 142) ; */
-   background-color: tomato;
-   padding: 0.6em;
+.bigFooterBox .footmedd {
+    background-color: rgb(40, 40, 40);
+    padding-left: 8em;
 }
-.bigFooterBox .footmedd .left-med i{
+
+.bigFooterBox .footmedd .left-med {
+    /* color:rgb(142, 142, 142) ; */
+    background-color: tomato;
+    padding: 0.6em;
+}
+
+.bigFooterBox .footmedd .left-med i {
     color: rgb(221, 221, 221);
     /*background-color: tomato;
-    */border-radius: 50px;
+    */
+    border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -460,26 +531,30 @@ footer{
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
 }
+
 .bigFooterBox .footmedd .left-med i:hover {
     color: rgb(171, 171, 171);
     border: 1px solid rgb(171, 171, 171);
 }
+
 /* ... */
 
-.bigFooterBox .footmedmed{
-position: absolute;
-left: 32em;
-top: 0;
-width: 100%;
+.bigFooterBox .footmedmed {
+    position: absolute;
+    left: 32em;
+    top: 0;
+    width: 100%;
 }
-.bigFooterBox .footmedmed p{
+
+.bigFooterBox .footmedmed p {
     background-color: tomato;
     text-transform: uppercase;
     padding: 0.9em;
     width: 8em;
 }
+
 .bigFooterBox .footmedmed ul {
-background-color: rgb(76, 76, 76);
+    background-color: rgb(76, 76, 76);
     padding: 0.2em 23em .25em 0.6em;
     display: block;
     /* margin-left:20em ; */
@@ -489,9 +564,11 @@ background-color: rgb(76, 76, 76);
     color: rgb(163, 163, 163);
     text-transform: capitalize;
 }
+
 .bigFooterBox .footmedmed ul li {
-    padding: 0.2em;    
+    padding: 0.2em;
 }
+
 .bigFooterBox .footmedmed ul li h6 {
     padding-left: 2em;
     color: lightgray;
@@ -499,40 +576,45 @@ background-color: rgb(76, 76, 76);
 }
 
 .bigFooterBox .footlastcont {
-position: absolute;
+    position: absolute;
     left: 56.25em;
     top: 0;
     background-color: rgba(255, 99, 71, 0.6);
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
-.bigFooterBox .footlastcont p{
+
+.bigFooterBox .footlastcont p {
     background-color: rgba(255, 99, 71);
     width: 100%;
     padding: 0.9em;
     text-transform: uppercase;
 }
-.bigFooterBox .footlastcont ul{
-text-transform: capitalize;
-display: block;
-padding: 0.1em;
-color: rgb(209, 209, 209);
-font-size: 0.9em;
+
+.bigFooterBox .footlastcont ul {
+    text-transform: capitalize;
+    display: block;
+    padding: 0.1em;
+    color: rgb(209, 209, 209);
+    font-size: 0.9em;
 }
-.bigFooterBox .footlastcont ul li i{
-padding: 0em  0.6em;
+
+.bigFooterBox .footlastcont ul li i {
+    padding: 0em 0.6em;
 }
 
 /* ... */
- .bigFooterBox .footbotm{
+.bigFooterBox .footbotm {
     background-color: rgb(40, 40, 40);
     padding: 0.2em;
     color: rgb(209, 209, 209);
- }
- .bigFooterBox .footbotm span{ 
+}
+
+.bigFooterBox .footbotm span {
     background-color: rgb(40, 40, 40);
- }
- .bigFooterBox .footbotm .footnav  {
+}
+
+.bigFooterBox .footbotm .footnav {
     padding-left: 7em;
     padding-right: 2em;
     /* color: rgb(233, 233, 233); */
@@ -540,15 +622,17 @@ padding: 0em  0.6em;
     align-items: center;
     justify-content: space-between;
     text-transform: capitalize;
- }
-  .bigFooterBox .footbotm .footnav p{ 
-text-align: right;
-/* padding: 0em 0.2em; */
-text-transform: capitalize;
-/* margin-right: 0.2em; */
-font-size: 0.6em;
-color: tomato;
-  }
+}
+
+.bigFooterBox .footbotm .footnav p {
+    text-align: right;
+    /* padding: 0em 0.2em; */
+    text-transform: capitalize;
+    /* margin-right: 0.2em; */
+    font-size: 0.6em;
+    color: tomato;
+}
+
 /* ... */
 
 
@@ -556,98 +640,118 @@ color: tomato;
 /* -------------------------------------------------------------- */
 
 
-@media(max-width:600px) {
-    
+@media(max-width:800px) {
 
-body{
-    font-size: 0.3em;
-}    
-nav{
-    width: 4%;
-}
-main .mainLogo h2{
-    font-size: 4em;
-}
-main p{
-    font-size: 2em;
-}
-section span , section h3 {
-    font-size: 2em;
-}
-section form{
-    font-size: 0.9em;
-    width: 99%;
-}
-section form input{
-    font-size: 2em;
-}
-section form select{
-    font-size: 2em;
-}
-section form i {
-    font-size: 0.9em;
-}
 
-section .sectionOneBigBox{
-    flex-direction: column;
-}
-section .sectionOneBigBox .leftsec {
-    width: 90%;
-}
-section .sectionOneBigBox .leftsec p{
-    font-size: 2em;
-}
-/* ...... */
+    body {
+        font-size: 0.3em;
+    }
 
-section .sectionOneBigBox .rightsec{
-    width: 90%;
-    font-size: 2em;
-}
-section .sectionOneBigBox .rightsec form input{
-    padding: 3%;
-    font-size:1em;
-}
-section .sectionOneBigBox .leftsec button {
-    /* width: 90%; */
-    padding: 1.4em;
-}
-section .sectionOneBigBox .leftsec form button {
-    /* width: 90%; */
-    padding: 1.8em;
-}
+    nav {
+        width: 4%;
+    }
 
-footer{
-    position: fixed;
-    bottom: 0;
+    main .mainLogo h2 {
+        font-size: 4em;
+    }
+
+    main p {
+        font-size: 2em;
+    }
+
+    section span,
+    section h3 {
+        font-size: 2em;
+    }
+
+    section form {
+        font-size: 0.9em;
+        width: 99%;
+    }
+
+    section form input {
+        font-size: 2em;
+    }
+
+    section form select {
+        font-size: 2em;
+    }
+
+    section form i {
+        font-size: 0.9em;
+    }
+
+    section .sectionOneBigBox {
+        flex-direction: column;
+    }
+
+    section .sectionOneBigBox .leftsec {
+        width: 90%;
+    }
+
+    section .sectionOneBigBox .leftsec p {
+        font-size: 2em;
+    }
+
+    /* ...... */
+
+    section .sectionOneBigBox .rightsec {
+        width: 90%;
+        font-size: 2em;
+    }
+
+    section .sectionOneBigBox .rightsec form input {
+        padding: 3%;
+        font-size: 1em;
+    }
+
+    section .sectionOneBigBox .leftsec button {
+        /* width: 90%; */
+        padding: 1.4em;
+    }
+
+    section .sectionOneBigBox .leftsec form button {
+        /* width: 90%; */
+        padding: 1.8em;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
         /* width: 88% !important; */
-    font-size: 0.9em;        
-}
+        font-size: 0.9em;
+    }
 
-.bigFooterBox .foottop .left-top p{
-width: 9em;
-}
- footer ul{
-    font-size: 0.3em;
-    padding: 0.1em;
-    margin: 0.1em 0.6em;
-}
-.bigFooterBox .footmedmed ul {
-    padding: 0.1em 20em .2em 0.9em;
-    font-size: 0.1em;
-    margin: 0.1em 11em;
-}
-.bigFooterBox .footmedmed p {
-    width:11%;
-    font-size: 0.3em;
-    margin-left: 4em;
-}
-.bigFooterBox .footlastcont ul {
-    font-size: 0.6em;
-}
-footer i {
-    font-size: 0.2em;
-    border: none !important;
-}
+    .bigFooterBox .foottop .left-top p {
+        width: 9em;
+    }
+
+    footer ul {
+        font-size: 0.3em;
+        padding: 0.1em;
+        margin: 0.1em 0.6em;
+    }
+
+    .bigFooterBox .footmedmed ul {
+        padding: 0.1em 20em .2em 0.9em;
+        font-size: 0.1em;
+        margin: 0.1em 11em;
+    }
+
+    .bigFooterBox .footmedmed p {
+        width: 11%;
+        font-size: 0.3em;
+        margin-left: 4em;
+    }
+
+    .bigFooterBox .footlastcont ul {
+        font-size: 0.6em;
+    }
+
+    footer i {
+        font-size: 0.2em;
+        border: none !important;
+    }
 
 
 
