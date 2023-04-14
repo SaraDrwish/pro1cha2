@@ -551,5 +551,106 @@ color: tomato;
   }
 /* ... */
 
+
+
 /* -------------------------------------------------------------- */
 
+
+@media(max-width:600px) {
+    
+
+body{
+    font-size: 0.3em;
+}    
+nav{
+    width: 4%;
+}
+main .mainLogo h2{
+    font-size: 4em;
+}
+main p{
+    font-size: 2em;
+}
+section span , section h3 {
+    font-size: 2em;
+}
+section form{
+    font-size: 0.9em;
+    width: 99%;
+}
+section form input{
+    font-size: 2em;
+}
+section form select{
+    font-size: 2em;
+}
+section form i {
+    font-size: 0.9em;
+}
+
+section .sectionOneBigBox{
+    flex-direction: column;
+}
+section .sectionOneBigBox .leftsec {
+    width: 90%;
+}
+section .sectionOneBigBox .leftsec p{
+    font-size: 2em;
+}
+/* ...... */
+
+section .sectionOneBigBox .rightsec{
+    width: 90%;
+    font-size: 2em;
+}
+section .sectionOneBigBox .rightsec form input{
+    padding: 3%;
+    font-size:1em;
+}
+section .sectionOneBigBox .leftsec button {
+    /* width: 90%; */
+    padding: 1.4em;
+}
+section .sectionOneBigBox .leftsec form button {
+    /* width: 90%; */
+    padding: 1.8em;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+        /* width: 88% !important; */
+    font-size: 0.9em;        
+}
+
+.bigFooterBox .foottop .left-top p{
+width: 9em;
+}
+ footer ul{
+    font-size: 0.3em;
+    padding: 0.1em;
+    margin: 0.1em 0.6em;
+}
+.bigFooterBox .footmedmed ul {
+    padding: 0.1em 20em .2em 0.9em;
+    font-size: 0.1em;
+    margin: 0.1em 11em;
+}
+.bigFooterBox .footmedmed p {
+    width:11%;
+    font-size: 0.3em;
+    margin-left: 4em;
+}
+.bigFooterBox .footlastcont ul {
+    font-size: 0.6em;
+}
+footer i {
+    font-size: 0.2em;
+    border: none !important;
+}
+
+
+
+}
+
+/* --------------------------------------------- */
